@@ -1,0 +1,6 @@
+This workshop was a piece of cake, cause the tasks were pretty understandable to complete, but my main mistake was in Book.cpp in line 18
+when I put in condition "m_author != nullptr" instead of "obj.m_author != nullptr". I spent 30 minutes of figuring out this problem. Furthermore, 
+I was confused when the task was to cast the current object to "LibraryItem" (base class), but then I realized that it is used for polymorphic assignment or copy.
+Because I need to ensure the base class subobject is also copied too, subsequently I have to specifically manipulate the base part of the object too. Also, 
+I had some problems with the rule-of-3, I had to check the documentation in the website to refresh of how to do it correctly. Overall, I like this workshop cause
+it covers the rule of 3 and polymorphism. I did this workshop in 40-50 minutes (excluding finding the stupid mistake).

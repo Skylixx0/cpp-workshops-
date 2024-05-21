@@ -1,0 +1,7 @@
+Well this workshop and milestone 2 were very straightforward, by doing them I started to understand more oop concepts such as polymorphism, inheritance. Specifically, the most
+tough task was to understand who is who 😂. Also, I was getting confused with some of the classes, for instance, I forgot to add the class to specific function "Account::" to
+"debit(transactionFee)" 😓. The shadowing was occured in that kind of situation. I guess, the most time-consuming model is ChequingAccount (for me). Beside, I spent a decent
+amount of time on attribute for SavingsAccount "m_interestRate" cause there wasn't any mention of this attribute to be added to this class. The implementation of constructors
+took me too much time ": Account(balance)". I had no idea that I should have delegated it from base class (it was pretty obvious). 
+
+Overall, this workshop was pretty good, I like it! It covers a lot of learned concepts 👍✌️.

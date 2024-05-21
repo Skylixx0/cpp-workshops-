@@ -1,0 +1,14 @@
+This workshop was the easy one for me, as I rest well during the reading week. However, 
+I encountered some issues with deallocating memory in "email.cpp", I put it in wrong sequence.
+Beside, I also had the problem with "load" function in "Inbox", specifically with object "file"
+and parameter "filename", I confused the places. Also, initially I was confused with "Inbox inboxcpy(*this);"
+cause it didn't notice the "(a copy of the current instance)". Overall, it was straightforward for me and even fun.
+
+If I will not put the check for self-assignment, it is gonna lead to
+memory leak at dynamic allocated memory, especially at "m_subject". Subsequently, 
+the check is significant for copy-assignment operator.
+
+The copy-constructor should not copy by itself because of effeciency and
+proper resource management. Rather it should use the copy-assignment operator
+in this case, because it involves the clean mechanism of swapping the object
+states and being assigned to actual object.       

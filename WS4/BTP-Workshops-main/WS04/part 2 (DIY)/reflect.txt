@@ -1,0 +1,10 @@
+This workshop 4 part 2 was a bit harder for me than other ones, because there are a lot of concepts and things that are significant to keep in mind
+especially with the allocating dynamic memory and resizing, also it took me a lot to understand "*this" expression. Also I had a trouble with logic 
+in if-else conditions at the end. So, I will work on previous workshops and will try to understand the logic chai itself.
+
+The benefits of constructors and destructors are:
+    - Initialization, the initialization is most prior benefit of the constructor, it can initialize the member variables in order to not invoke the crush of not initialization.
+    - Default values, the constructor can set the default values for member variables and it is very beneficial cause it improves usability and reduce the amount of code.
+
+    - Cleanup management, the destructor can cleanup the resource that has been used earlier.
+    - Custom cleanup, it can be used in any line of code to cleanup in order to keep the logic chain.

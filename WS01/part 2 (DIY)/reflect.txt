@@ -1,0 +1,15 @@
+// - Alikhan Ongdassyn,
+// - aongdassyn@myseneca.ca,
+// - 158486225,
+// - 01/23/24.
+
+// I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+
+Well, the Workshop 1 was unordinary, especially in part 2. Overall, the workshop was tough and fascinating simultaneously, cause in part 2 when I had to implementate the if-else statements 
+to sort out the specific number of marks for each interval was insane and fun for me, but the part with sorting the grades in descending order was a bit tough. Nevertheless, the result of my work always inspires me 
+each time I see it. The problem that I encounter recently was about forgetting to print out the bottom line and to leave the whitespaces between the brackets, also I forgot to initialize the storing number of marks 
+before looping it, but my professor helped me out. Well, it is time to answer the questions:
+    1. The compiler might give an unexpected error because the 'main' function has to be used in global scope. Also, it might me inconvinience for other developers as they see this kind of code.
+    2. The main points of putting the code into multiple modules are to organize them, modularity, maintainability, testing. It makes it easier to manage them and enhance their effectiveness as they are separated. 
+    Also, a lot of IT companies uses the modular design in order to share a bunch of code between the team members.

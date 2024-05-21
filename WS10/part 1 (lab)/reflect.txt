@@ -1,0 +1,5 @@
+This workshop was about templates and after doing this workshop I feel pretty confident about that, I get used to do the template implementations. The main struggle was in 
+implementing the main model (passing the arguments in parameters) cause I've been getting confused while passing the parameters in function. Overall, this workshop was light,
+it took me less than 25 minutes I guess and I want to thank you for providing us the clear and instructive workshops. By doing those workshops, many students would feel confident 
+on the finals. Templates are a fundamental feature of C++ that enable generic programming, code reusability, and metaprogramming. 
+While they can be complex and sometimes lead to difficult-to-debug errors, mastering templates is essential for writing efficient and flexible C++ code.

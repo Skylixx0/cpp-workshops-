@@ -1,0 +1,20 @@
+This workshop was one of mine easiest workshops, I understand how inheritance works and etc.
+The most hard thing was the setting precision because earlier I forgot to use "setf(ios::fixed)"
+in order to make the interest/amount fixed. 
+
+I had to overload insertion twice cause the derived class will not "inherit" the overloaded operator
+because it is implemented as non-member function of class. If I put "friend" it will inherit but without
+the "SavingsAccount"'s member datas in derived class, (m_interest, m_interestDate). It uses the "BankAccount"'s 
+overloaded operator "<<".
+Basically I am limited only using the base class's representation of the object. Subsequently, I have to use the 
+derived class's overloaded operator.
+
+I was able to get the private data member (balance) by using the funciton called "getBalance()" which is included
+in protected label. After, I can use it in my derived class as storing it in variable "double oldBalance = getBalance();"
+
+Making attributes non-private can lead to several problems: 
+    - Encapsulation violation
+    - Harder to maintain and debug
+    - etc.
+It undermines the benefits of encapsulation, increases the risk of bugs and maintenance issues, and makes the code more fragile and harder to evolve.
+So the good practice would be to make the "balance" attribute private in base class.

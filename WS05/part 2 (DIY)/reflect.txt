@@ -1,0 +1,6 @@
+This workshop was pretty hard for me as there are a lot of concepts associated with overloading operators, such as 
+operator +=, operator++, etc. The main struggle was in operator += as it has the dynamic allocation memory, which was
+painful for me because there are a lot of informations that have to be stored in my head. So, 
+the overloading operators should not be modifier for object's state nor should be the query cause the query's
+main purpose is to receive data (object's state) without modifying it but comparison operators (operator +=, operator > etc.)
+does not have the current object instance at all, it is located in global scope which have nothing to do with class.
